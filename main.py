@@ -6,14 +6,6 @@ site1 = r"https://sites.google.com/site/fiipythonprogramming/laboratories"
 site2 = r"https://sites.google.com/site/fiipythonprogramming/"
 
 
-# 1 10
-# 2 12
-# 3 9
-# 4 8
-# 5 9
-# 6 8
-# 7 9
-
 def get_function_name(txt):
     functions = re.findall(
         "(The \w+ function)|(the \w+ function)|(function called \w+)|(o funcție <span[^>]*><strong>\w+)", txt)

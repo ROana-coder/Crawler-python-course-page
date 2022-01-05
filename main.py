@@ -56,7 +56,7 @@ def create_file(lab_no, path):
             comment = '#ex' + str(it) + '\n'
             f.write(comment)
             f.write(function)
-        print(ex)
+        #print(ex)
 
         it += 1
     print(it)
@@ -73,7 +73,7 @@ def create_file(lab_no, path):
                 f.write(comment)
                 f.write(function)
             it += 1
-            print(ex)
+            #print(ex)
         print(it)
     f.close()
 
@@ -95,6 +95,6 @@ def create_directories(dir):
 
 
 if __name__ == '__main__':
-    direct = "F:/Desktop/PythonCrawler"
+    d = "F:/Desktop/PythonCrawler"
+    direct = input()
     create_directories(direct)
-
